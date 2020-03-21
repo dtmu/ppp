@@ -3,15 +3,15 @@
 # Usage
 ``` bash
 ##### start
-$ curl localhost
-{"Message":"Hello ppp!"}
-
 # request header is logged.
 $ sudo ppp
 Request Header
 * 2020-03-20 22:04:03.915
 < User-Agent: curl/7.58.0
 < Accept: */*
+
+$ curl localhost
+{"Message":"Hello ppp!"}
 
 ##### options
 # ready-to-run
