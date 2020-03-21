@@ -20,6 +20,9 @@ $ ppp
 # specify return-string
 $ ppp hogehoge 
 
+$ curl localhost
+hogehoge
+
 # specify port
 $ ppp -p 8080
 
